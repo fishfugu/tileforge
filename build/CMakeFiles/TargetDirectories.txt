@@ -1,0 +1,3 @@
+/workspaces/tileforge/build/CMakeFiles/rebuild_cache.dir
+/workspaces/tileforge/build/CMakeFiles/edit_cache.dir
+/workspaces/tileforge/build/CMakeFiles/tileforge.dir

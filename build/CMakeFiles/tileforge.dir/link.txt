@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/tileforge.dir/src/main.cpp.o CMakeFiles/tileforge.dir/src/board.cpp.o  -o tileforge 
