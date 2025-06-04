@@ -14,9 +14,3 @@ iostream
 
 /workspaces/tileforge/src/board.h
 
-/workspaces/tileforge/src/main.cpp
-iostream
--
-board.h
-/workspaces/tileforge/src/board.h
-

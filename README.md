@@ -109,3 +109,26 @@ Here's a rough plan for the early stages of TileForge:
 
 * [ ] Investigate UI libraries (ImGui, Qt)
 * [ ] Begin exploring how this could evolve into a web app
+
+
+---
+
+### ✅ TODO
+
+These are the next planned steps for the project. Contributions welcome!
+
+#### 🧱 Core Functionality
+- [ ] Define `Tile` class with basic properties (e.g. type, coordinates)
+- [ ] Update `Board` class to store a grid of `Tile` objects
+- [ ] Add ability to place and remove `Piece` objects
+- [ ] Display board contents in the console visually (e.g. ASCII grid)
+
+#### 🧪 Testing & Structure
+- [ ] Create basic unit tests (maybe using `doctest` or `Catch2`)
+- [ ] Improve CMake layout for modular compilation
+- [ ] Add build/run/debug instructions to `tasks.json` or `launch.json`
+
+#### 🌱 Stretch Goals
+- [ ] Add support for different board layouts (e.g. hex, isometric)
+- [ ] Save and load board state to file
+- [ ] Begin investigating UI libraries for future visualisation
