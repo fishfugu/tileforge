@@ -17,17 +17,49 @@ This project is in early development. We're currently focused on building a simp
 
 ---
 
-## 🛠 Development Setup
+### 💻 Working with GitHub Codespaces
 
-This project is Codespaces-ready.
+This project supports development directly in [GitHub Codespaces](https://github.com/features/codespaces) — no local setup required.
 
 ### Requirements (if not using Codespaces)
 - C++17 or higher
 - CMake 3.15+
 - A compiler (GCC, Clang, or MSVC)
 
-### Running in Codespaces
-Open the repository in GitHub Codespaces — the environment will configure automatically using the provided dev container.
+#### ✅ To get started:
+
+1. Click the **Code** button at the top of the repository.
+2. Select **"Open with Codespaces"** → **"+ New codespace"**.
+3. A browser-based VS Code environment will launch automatically with all tools pre-installed.
+
+---
+
+#### 🛠 Build & Run
+
+From the Codespaces environment:
+
+* Press **`Ctrl+Shift+B`** (or **`⇧⌘B`** on Mac) to **build the project**.
+* Open the Command Palette (`Ctrl+Shift+P` / `⇧⌘P`), type `Run Task`, and select **"Run TileForge"**.
+
+You can also use the terminal:
+
+```bash
+cmake -S . -B build
+cmake --build build
+./build/tileforge
+```
+
+---
+
+#### ⚙ What's Included in the Dev Container
+
+The dev environment comes preloaded with:
+
+* C++ compiler
+* CMake
+* VS Code extensions for C++ and CMake Tools
+
+No need to install anything locally — ideal for quick collaboration and learning.
 
 ---
 
