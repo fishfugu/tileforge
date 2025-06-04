@@ -1,5 +1,5 @@
 {
-  "name": "Board Designer C++ Dev",
+  "name": "TileForge - Board Designer",
   "image": "mcr.microsoft.com/devcontainers/cpp",
   "customizations": {
     "vscode": {
