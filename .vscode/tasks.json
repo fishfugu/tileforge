@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "CMake Build",
+      "type": "shell",
+      "command": "cmake -S . -B build && cmake --build build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run TileForge",
+      "type": "shell",
+      "command": "./build/tileforge",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "dependsOn": "CMake Build",
+      "problemMatcher": []
+    }
+  ]
+}
